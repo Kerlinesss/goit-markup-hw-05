@@ -732,7 +732,9 @@ address {
 
 .gallery-list div {
   border: 1px solid #eeeeee;
+  width: 370px;
 }
+
 
 .gallery-link:hover,
 .gallery-link:focus {
@@ -744,8 +746,6 @@ address {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  width: 1200px;
-  padding-right:0;
 }
 
 .gallery-list-img-wrapper {
@@ -766,7 +766,7 @@ address {
   font-weight: 400;
   line-height: 1.55;
   letter-spacing: 0.03em;
-  overflow: auto;
+  overflow: hidden;
   transform: translateY(101%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
